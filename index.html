@@ -10,32 +10,52 @@
 
 <body>
   <div class="left-container">
-    <p>Photo by Halie West on Unsplash</p>
+    <p class="photo-caption">Photo by Halie West on Unsplash</p>
   </div>
   <div class="right-container">
     <div class="intro">
-      <p>This is not a real online service! You know you need something like this in your life to help you realise your
-        deepest dreams. Sign up <i>now</i> to get started. </p>
+      <br>This is not a real online service! You know you need something like this in your life to help you realise your
+      deepest dreams. <br /> Sign up <i>now</i> to get started. </p>
       <span class="intro__span">You <em>know</em> you want to.</span>
 
 
 
     </div>
     <div class="sign-up">
-      <p>Let's do this!</p>
+      <p class="sign-up__header">Let's do this!</p>
       <div class="input-container">
-        <input type="text" id="first-name">
-        <input type="text" id="last-name">
-        <input type="email" id="email">
-        <input type="number" id="telephone">
-        <input type="password" id="password">
-        <input type="password" id="confirm-password">
+        <div class="field-container">
+          <label class="field" for="first-name">first name</label>
+          <input type="text" id="first-name">
+        </div>
+
+        <div class="field-container">
+          <label class="field" for="email">email</label>
+          <input type="email" id="email">
+        </div>
+        <div class="field-container">
+          <label class="field" for="password">password</label>
+          <input type="password" id="password">
+        </div>
+        <div class="field-container">
+          <label class="field" for="last-name">last name</label>
+          <input type="text" id="last-name">
+        </div>
+
+        <div class="field-container">
+          <label class="field" for="telephone">phone number</label>
+          <input type="number" id="telephone">
+        </div>
+        <div class="field-container">
+          <label class="field" for="confirm-password">confirm password</label>
+          <input type="password" id="confirm-password">
+        </div>
       </div>
     </div>
     <div class="create-acc">
-      <button>Create Account</button>
+      <button class="create-acc__btn">Create Account</button>
       <p>
-        Already have an account? <a href="#">Log in</a>
+        Already have an account? <a class="create-acc__link" href="#">Log in</a>
       </p>
     </div>
   </div>
