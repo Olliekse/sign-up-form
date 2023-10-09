@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  margin: 0;
+  background-color: #F9FAFB
+
+}
+
+.left-container {
+  background: url('./images/photo-1585202900225-6d3ac20a6962.avif') center center no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 100vh;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 10px;
+}
+
+.intro {
+padding-top: 50px;
+}
+
+.intro__span {
+padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  gap: 5git0px;
+  flex-wrap: wrap;
+  
+  width: 70%;
+}
+
+.sign-up {
+  background-color: white;
+}
